@@ -1,0 +1,28 @@
+body{
+    background-color: #B1CED8 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    border: red solid 2px;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.recuadro--izquierda{
+    background-color: hsl(162, 46%, 42%) ;
+    color: white;
+    align-self: flex-start;
+}
+
+.recuadro--derecha{
+    background-color: #FFFFFF;
+    color: black;
+    align-self:flex-end;
+    color: green;
+}
+/* asdasd */
+/* asdasdad */
