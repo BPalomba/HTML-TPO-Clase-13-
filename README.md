@@ -5,9 +5,9 @@ En este proyecto la intencion es hacer un menu responsive para el siguiente dise
 
 https://dribbble.com/shots/20116204-Form2
 
-<h1> Link a la pagina</h1>
+<h1> <a href="https://bpalomba.github.io/HTML-TPO-Clase-13-/">Link a la pagina</a></h1>
 
-<a href="https://bpalomba.github.io/HTML-TPO-Clase-13-/">Link</a>
+
 
 
 
