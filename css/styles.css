@@ -1,28 +1,120 @@
-body{
+body, html{
+    margin: 0;
+    height: 100%;
+    width: 100%;
     background-color: #B1CED8 ;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
-main{
-    border: red solid 2px;
-    justify-content: center;
-    align-items: center;
-    vertical-align: middle;
+.recuadro{
+
+    display: flex;
+    align-self: center;
+    margin: 0;
+
+    
 }
 
 .recuadro--izquierda{
     background-color: hsl(162, 46%, 42%) ;
     color: white;
-    align-self: flex-start;
+    border-radius: 5px 0px 0px 5px;
+    height: 570px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.recuadro--izquierda h4{
+    color: #83d3bc;
+    padding: 0px 10px;
+}
+
+img{
+    margin-top: 10vh;
 }
 
 .recuadro--derecha{
+    display: flex;
+    flex-direction: column;
     background-color: #FFFFFF;
-    color: black;
-    align-self:flex-end;
-    color: green;
+    color: #B4B2B2 ;
+    justify-content: center;
+    padding: 70px;
+    border-radius: 0px 5px 5px 0px;
+    height: 570px;
 }
-/* asdasd */
-/* asdasdad */
+
+.recuadro--derecha h1{
+    font-weight: 700;
+    color: #4E4141;
+    font-size: 25px;
+}
+
+h4, h3{
+    font-size: 15px;
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+label{
+    color:rgb(66, 64, 64);
+    font-weight: 500;
+}
+
+input, select{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #F1F1F1;
+    border: 2px solid transparent;
+    color: black;
+    font-weight: bold;
+}
+    select{
+        color: #757575;
+    }
+
+    select,input:hover{
+        cursor: pointer;
+    }
+
+
+.recuadro--derecha--botones{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
+
+button{
+    background-color: #33AF8E ;
+    color: white;
+    border: 2px solid transparent;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    transition:  0.5s;
+}
+
+button:hover{
+    background-color: #216754 ;
+    
+}
+
+
+/* Responsive */
+@media ( max-width:600px){
+
+    .recuadro{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+
+}
